@@ -1,0 +1,10 @@
+{
+    "slug": "blank",
+    "name": "Blank",
+    "author": "Prappo Prince",
+    "email": "Prappo Prince",
+    "description": "Blank theme.",
+    "web": "www.example.com",
+    "license": "MIT",
+    "version": "1.0"
+}

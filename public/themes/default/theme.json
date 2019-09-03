@@ -1,0 +1,10 @@
+{
+  "slug": "default",
+  "name": "Default",
+  "author": "Prappo Prince",
+  "email": "prappo.prince@gmail.com",
+  "description": "This is default theme.",
+  "web": "http://trino-lab.com",
+  "license": "MIT",
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+    "slug": "basic",
+    "name": "Basic",
+    "author": "Prappo Prince",
+    "email": "prappo.prince@gmail.com",
+    "description": "Basic theme",
+    "web": "www.trino-lab.com",
+    "license": "MIT",
+    "version": "1.0"
+}
