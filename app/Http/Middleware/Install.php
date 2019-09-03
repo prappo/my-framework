@@ -16,7 +16,9 @@ class Install
      */
     public function handle($request, Closure $next)
     {
+
         if (!isInstalled()) {
+
             if (!(Request::is('install') || Request::is('install/*'))) {
 
                 return redirect('/install');
@@ -24,6 +26,7 @@ class Install
             }
 
         }
+
         return $next($request);
     }
 }

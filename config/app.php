@@ -190,6 +190,8 @@ return [
 
         MaddHatter\LaravelFullcalendar\ServiceProvider::class,
 
+        TorMorten\Eventy\EventServiceProvider::class,
+        TorMorten\Eventy\EventBladeServiceProvider::class,
 
 
     ],
@@ -255,6 +257,7 @@ return [
         'Menu' => Harimayco\Menu\Facades\Menu::class,
 
         'Calendar' => MaddHatter\LaravelFullcalendar\Facades\Calendar::class,
+        'Eventy' => TorMorten\Eventy\Facades\Events::class,
 
 
     ],
