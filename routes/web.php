@@ -37,7 +37,7 @@ Route::group(['middleware' => 'language'], function () {
         Route::get('/package/buy', 'PackageController@buyPackageIndex');
         Route::post('/package/buy', 'PackageController@buyPackage')->name('buyPackage');
         Route::get('/package/my', 'PackageController@userPackages');
-        Route::get('/statements/my', 'StatementController@index');
+        Route::get('/statements/my', 'StatementController@index')->name('myStatements');
 
     });
 

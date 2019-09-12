@@ -62,7 +62,17 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('buyPackage') }}">
-                        <i class="ni ni-cart text-success"></i> {{ __('Buy Packages') }}
+                        <i class="ni ni-cart text-primary"></i> {{ __('Buy Packages') }}
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('myStatements') }}">
+                        <i class="ni ni-calendar-grid-58 text-primary"></i> {{ __('My Statements') }}
                     </a>
                 </li>
 
